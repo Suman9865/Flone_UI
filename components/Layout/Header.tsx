@@ -10,14 +10,18 @@ function Header() {
         </h2>
         <div className="">
           <ul className="md:flex items-center justify-center gap-10 font-bold hidden text-[#262626]">
-            <li>Demos</li>
+            <li>Home</li>
+            <li>Product</li>
             <li>Contact</li>
             <li>About</li>
           </ul>
         </div>
+        <>
         <Button variant={"secondary"} className="shadow-sm shadow-slate-400">
-          Purchase
+          Sign Up
         </Button>
+      
+        </>
       </nav>
     </>
   );

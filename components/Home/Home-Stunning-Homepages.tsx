@@ -6,10 +6,9 @@ function HomeStunningHomepages() {
   return (
     <div className="w-full flex flex-col justify-center items-center md:gap-20 gap-10 px-3 md:px-10">
       <div className="md:w-1/2 w-full mx-auto flex flex-col items-center justify-center gap-5">
-        <h2 className="md:text-5xl text-3xl  font-bold">Stunning Homepages</h2>
+        <h2 className="md:text-5xl text-3xl  font-bold">----- Daily Deals! -----</h2>
         <p className="text-center text-sm md:text-base">
-          Choose a homepage to start navigating Flone. Build strong & impressive
-          websites using Flone&#39;s premade templates.
+        New Arrivals - Best Sellers - Sale Items
         </p>
       </div>
       <div className="w-full grid md:grid-cols-3 gap-10">
@@ -25,7 +24,7 @@ function HomeStunningHomepages() {
           </CardHeader>
           <CardFooter>
             <CardTitle className="text-center w-full text-lg">
-              Home - Fashion One
+            $50.00
             </CardTitle>
           </CardFooter>
         </Card>
@@ -41,7 +40,7 @@ function HomeStunningHomepages() {
           </CardHeader>
           <CardFooter>
             <CardTitle className="text-center w-full text-lg">
-              Home - Fashion Two
+            $75.00
             </CardTitle>
           </CardFooter>
         </Card>
@@ -57,7 +56,7 @@ function HomeStunningHomepages() {
           </CardHeader>
           <CardFooter>
             <CardTitle className="text-center w-full text-lg">
-              Home - Fashion Three
+              $100.00
             </CardTitle>
           </CardFooter>
         </Card>
@@ -73,7 +72,7 @@ function HomeStunningHomepages() {
           </CardHeader>
           <CardFooter>
             <CardTitle className="text-center w-full text-lg">
-              Home - Fashion Four
+              $100.00
             </CardTitle>
           </CardFooter>
         </Card>
@@ -89,7 +88,7 @@ function HomeStunningHomepages() {
           </CardHeader>
           <CardFooter>
             <CardTitle className="text-center w-full text-lg">
-              Home - Fashion Five
+              $100.00
             </CardTitle>
           </CardFooter>
         </Card>
@@ -105,7 +104,7 @@ function HomeStunningHomepages() {
           </CardHeader>
           <CardFooter>
             <CardTitle className="text-center w-full text-lg">
-              Home - Fashion Six
+              $100.00
             </CardTitle>
           </CardFooter>
         </Card>
@@ -121,7 +120,7 @@ function HomeStunningHomepages() {
           </CardHeader>
           <CardFooter>
             <CardTitle className="text-center w-full text-lg">
-              Home - Fashion Seven
+              $100.00
             </CardTitle>
           </CardFooter>
         </Card>
@@ -137,7 +136,7 @@ function HomeStunningHomepages() {
           </CardHeader>
           <CardFooter>
             <CardTitle className="text-center w-full text-lg">
-              Home - Fashion Eight
+              $100.00
             </CardTitle>
           </CardFooter>
         </Card>
@@ -153,7 +152,7 @@ function HomeStunningHomepages() {
           </CardHeader>
           <CardFooter>
             <CardTitle className="text-center w-full text-lg">
-              Home - Fashion Nine
+              $100.00
             </CardTitle>
           </CardFooter>
         </Card>

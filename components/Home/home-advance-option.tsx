@@ -13,7 +13,7 @@ function HomeAdvanceOption() {
       <div className="w-full flex flex-col items-center justify-center gap-32 md:p-20 p-10">
         <div className="w-full md:w-1/2 mx-auto">
           <h2 className="text-white text-4xl font-semibold text-center">
-            Immensity of template & layouts with advanced options
+          Impressive design, powerful features, and easy customization
           </h2>
         </div>
         <div className="w-full flex items-center justify-between gap-20 flex-col md:flex-row">
@@ -22,9 +22,8 @@ function HomeAdvanceOption() {
             <div className="w-full md:w-1/2 flex flex-col items-start justify-start gap-5 text-white">
               <h3 className="text-2xl font-semibold">Premade Headers</h3>
               <p>
-                Power up your pages with beautifully designed header styles.
-                Each style comes with a variety of header options for your
-                choice.
+              A versatile eCommerce Platform for different purposes that
+          emphasizes creativity, efficiency, and diversity.
               </p>
             </div>
           </div>
@@ -33,9 +32,8 @@ function HomeAdvanceOption() {
             <div className="w-full md:w-1/2 flex flex-col items-start justify-start gap-5 text-white">
               <h3 className="text-2xl font-semibold">Premade Footers</h3>
               <p>
-                Enhance the navigation experience with 3+ footer styles
-                exclusively designed for Flone. The power of customization is
-                given in your hands.
+              A versatile eCommerce Platform for different purposes that
+          emphasizes creativity, efficiency, and diversity.
               </p>
             </div>
           </div>

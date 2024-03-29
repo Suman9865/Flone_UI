@@ -25,10 +25,11 @@ function HomeFullCarousal() {
       />
       <div className="flex flex-col justify-start items-start md:w-2/3 w-full md:pl-20 pl-3 ">
         <h2 className="md:text-6xl text-4xl font-bold md:my-20 my-10 text-[#262626]">
-          Display your best articles in a grid or an unique minimal layout
+        Fully optimized & customizable shop samples, visually bold design & beautiful effects
         </h2>
         <p className="text-slate-100 font-semibold">
-          A wide range of layouts for displaying your blogs and capture audiences attention
+        A versatile eCommerce Platform for different purposes that
+          emphasizes creativity, efficiency, and diversity.
         </p>
       </div></CarouselItem>
     <CarouselItem className="md:min-h-screen w-full py-10 relative"><Image
@@ -44,7 +45,8 @@ function HomeFullCarousal() {
           Fully optimized & customizable shop samples, visually bold design & beautiful effects
         </h2>
         <p className="text-slate-100 font-semibold">
-          Get your readers familiar with your business features projects and achievements
+        A versatile eCommerce Platform for different purposes that
+          emphasizes creativity, efficiency, and diversity.
         </p>
       </div></CarouselItem>
   </CarouselContent>

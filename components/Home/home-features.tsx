@@ -2,37 +2,36 @@ import { Card, CardDescription, CardHeader, CardTitle } from "../ui/card";
 
 function HomeFeatures() {
   return (
-    <div className="w-full grid md:grid-cols-4 gap-5 md:py-20 py-10 md:px-10 px-3">
+    <div className="w-full grid md:grid-cols-4 gap-5 md:py-20 py-10 md:px-10 px-3 text-center">
       <Card>
         <CardHeader className="p-4 gap-6">
-          <CardTitle>Latest Vue JS & Next JS</CardTitle>
+          <CardTitle>Free Shipping</CardTitle>
           <CardDescription>
-            Latest Vue JS and Next JS version used with fully functional
+          Free shipping on all order
           </CardDescription>
         </CardHeader>
       </Card>
       <Card>
         <CardHeader className="p-4 gap-6">
-          <CardTitle>Mega Menu</CardTitle>
+          <CardTitle>Support 24/7</CardTitle>
           <CardDescription>
-            Mega Menu is the door that has the entrance to every pages of your
-            site
+          Support 24 hours a day
           </CardDescription>
         </CardHeader>
       </Card>
       <Card>
         <CardHeader className="p-4 gap-6">
-          <CardTitle>Responsive Design</CardTitle>
+          <CardTitle>Money Return</CardTitle>
           <CardDescription>
-            Flone is super responsive & work perfectly in all devices.
+          30 days for free return
           </CardDescription>
         </CardHeader>
       </Card>
       <Card>
         <CardHeader className="p-4 gap-6">
-          <CardTitle>Real Support</CardTitle>
+          <CardTitle>Order Discount</CardTitle>
           <CardDescription>
-            We provide 7 days a week one by one real support.
+          10% off on your first order
           </CardDescription>
         </CardHeader>
       </Card>

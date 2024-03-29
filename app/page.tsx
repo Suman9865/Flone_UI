@@ -1,4 +1,5 @@
 import HomeStunningHomepages from "@/components/Home/Home-Stunning-Homepages";
+import Footer from "@/components/Layout/footer";
 import HomeAction from "@/components/Home/home-action";
 import HomeAdvanceOption from "@/components/Home/home-advance-option";
 import HomeCarousal from "@/components/Home/home-carousal";
@@ -20,6 +21,7 @@ export default function Home() {
       <HomeTemplateFeatures/>
       <HomeTheme/>
       <HomeAction/>
+      <Footer/>
     </div>
   );
 }

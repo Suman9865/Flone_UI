@@ -13,10 +13,10 @@ function HomeMain() {
       />
       <div className="flex flex-col justify-start items-start md:w-2/3 w-full md:pl-20 pl-3 ">
         <h2 className="md:text-6xl text-4xl font-bold md:my-20 my-10 text-[#262626]">
-          Flone - VueJS eCommerce Template
+          Summer Offer - Latest Collections of 2024
         </h2>
         <p className="text-slate-100 font-semibold">
-          A versatile VueJS eCommerce Template for different purposes that
+          A versatile eCommerce Platform for different purposes that
           emphasizes creativity, efficiency, and diversity.
         </p>
       </div>
