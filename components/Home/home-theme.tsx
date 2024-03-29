@@ -2,9 +2,9 @@ import Image from "next/image";
 
 function HomeTheme() {
   return (
-    <div className="md:min-h-screen w-full py-10 relative">
+    <div className="md:min-h-screen w-full py-20 relative">
       <Image
-        src="https://images.unsplash.com/photo-1624359136353-f60129a367b9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="https://images.unsplash.com/photo-1608841802877-d37c913623e2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt="theme image"
         width={1000}
         height={1000}
