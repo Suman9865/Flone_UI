@@ -33,7 +33,7 @@ export default function ForgetForm({ className, ...props }: UserAuthFormProps) {
   }
 
   return (
-    <Card className="w-full">
+    <Card className="max-w-lg">
       <CardHeader className="flex flex-col space-y-2 text-center">
         <CardTitle className="text-2xl font-semibold tracking-tight">Forget Password</CardTitle>
         <CardDescription className="text-sm text-muted-foreground">
@@ -69,14 +69,14 @@ export default function ForgetForm({ className, ...props }: UserAuthFormProps) {
       </CardContent>
       <CardFooter className="relative flex flex-row items-center justify-center py-1 ">
         <Button asChild variant={'link'} className="text-black">
-          <Link href={'/signin'}>
+          <Link href={'/auth/signin'}>
             Sign In your Account
             <span className="sr-only">Sign In</span>
           </Link>
         </Button>
 
         <Button asChild variant={'link'} className="text-black">
-          <Link href="/signup">
+          <Link href="/auth/signup">
             Sign up new account?
             <span className="sr-only">Sign up</span>
           </Link>

@@ -55,7 +55,7 @@ export default function SignInForm({ className, ...props }: SignInFormProps) {
   }
 
   return (
-    <Card className="w-full">
+    <Card className="max-w-lg">
       <CardHeader className="flex flex-col space-y-2 text-center">
         <CardTitle className="text-2xl font-semibold tracking-tight">
           Sign in Your Account
@@ -132,14 +132,14 @@ export default function SignInForm({ className, ...props }: SignInFormProps) {
       </CardContent>
       <CardFooter className="relative flex flex-row items-center justify-center py-1 ">
         <Button asChild variant={"link"} className="text-black">
-          <Link href={"/forgetpassword"}>
+          <Link href={"/auth/forgetpassword"}>
             Forget Password?
             <span className="sr-only">Forgot password</span>
           </Link>
         </Button>
 
         <Button asChild variant={"link"} className="text-black">
-          <Link href="/signup">
+          <Link href="/auth/signup">
             Sign up new account?
             <span className="sr-only">Sign up</span>
           </Link>
