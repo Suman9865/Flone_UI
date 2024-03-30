@@ -1,8 +1,8 @@
 import React from 'react';
 
-const AboutUs: React.FC = () => {
+export default function AboutUs() {
   return (
-    <div className="bg-gray-100 py-10">
+    <div className="bg-slate-100 py-10">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-semibold text-gray-800 mb-6">About Us</h2>
         <div className="flex flex-col md:flex-row gap-8">
@@ -32,4 +32,4 @@ const AboutUs: React.FC = () => {
   );
 };
 
-export default AboutUs;
+

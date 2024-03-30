@@ -1,5 +1,5 @@
+import Link from "next/link";
 import { Button } from "../ui/button";
-import { Leaf } from "lucide-react";
 
 function Header() {
   return (
@@ -9,19 +9,19 @@ function Header() {
           Flone.
         </h2>
         <div className="">
-          <ul className="md:flex items-center justify-center gap-10 font-bold hidden text-[#262626]">
-            <li>Home</li>
-            <li>Product</li>
-            <li>Contact</li>
-            <li>About</li>
-          </ul>
+          <nav className="md:flex items-center justify-center gap-10 font-bold hidden text-[#262626]">
+            <Link href="/">Home</Link>
+            <Link href="/product">Product</Link>
+            <Link href="/contact">Contact</Link>
+            <Link href="/about">About</Link>
+          </nav>
         </div>
-        <>
+        <Link href="/signin">
         <Button variant={"secondary"} className="shadow-sm shadow-slate-400">
           Sign Up
         </Button>
       
-        </>
+        </Link>
       </nav>
     </>
   );

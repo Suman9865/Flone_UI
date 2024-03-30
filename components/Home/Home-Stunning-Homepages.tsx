@@ -6,7 +6,7 @@ function HomeStunningHomepages() {
   return (
     <div className="w-full flex flex-col justify-center items-center md:gap-20 gap-10 px-3 md:px-10">
       <div className="md:w-1/2 w-full mx-auto flex flex-col items-center justify-center gap-5">
-        <h2 className="md:text-5xl text-3xl  font-bold">----- Daily Deals! -----</h2>
+        <h2 className="md:text-5xl text-3xl  font-bold">--- Trending Deals! ---</h2>
         <p className="text-center text-sm md:text-base">
         New Arrivals - Best Sellers - Sale Items
         </p>

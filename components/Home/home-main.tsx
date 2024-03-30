@@ -15,9 +15,10 @@ function HomeMain() {
         <h2 className="md:text-6xl text-4xl font-bold md:my-20 my-10 text-[#262626]">
           Summer Offer - Latest Collections of 2024
         </h2>
-        <p className="text-slate-100 font-semibold">
-          A versatile eCommerce Platform for different purposes that
-          emphasizes creativity, efficiency, and diversity.
+        <p className="text-slate-100 font-semibold leading-7">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Duis dapibus rutrum urna, sit amet accumsan velit efficitur sed. 
+        Phasellus blandit lacinia consequat. Integer auctor, mi id mollis fringilla, magna elit dignissim ex, ac vulputate odio justo sed purus.
         </p>
       </div>
     </div>

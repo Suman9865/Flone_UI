@@ -21,7 +21,6 @@ export default function Home() {
       <HomeTemplateFeatures/>
       <HomeTheme/>
       <HomeAction/>
-      <Footer/>
     </div>
   );
 }
